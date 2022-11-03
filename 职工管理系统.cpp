@@ -15,9 +15,9 @@ int main() {
 
 	while (true)
 	{
-		//չʾ�˵�
+		//Õ¹Ê¾²Ëµ¥
 		wm.Show_Menu();
-		cout << "�������ѡ��: " << endl;
+		cout << "ÊäÈëÄãµÄÑ¡Ôñ: " << endl;
 		cin >> choice;
 
 		switch (choice)
@@ -26,7 +26,7 @@ int main() {
 			wm.exitSystem();
 			break;
 		case 1:
-			wm.Add_Emp();
+			wm.Add_Emp(); 
 			break;
 		case 2:
 			wm.Show_Emp();
